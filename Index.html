@@ -255,15 +255,15 @@
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
         import { getDatabase, ref, set, onValue, push, remove, update } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js";
         
-        const firebaseConfig = {
-            apiKey: "YOUR API KEY",
-            authDomain: "YOUR AUTH DOMAIN",
-            databaseURL: "YOUR DATABASE URL",
-            projectId: "YOUR PROJECT ID",
-            messagingSenderId: "YOUR MESSAGING ID",
-            appId: "YOUR APPLICATION ID"
-        };
-
+    const firebaseConfig = {
+  apiKey: "AIzaSyA58u0NNSTVomAWho6Otu_B2_vzpdy_8Jg",
+  authDomain: "whatsappagent-e743b.firebaseapp.com",
+  databaseURL: "https://whatsappagent-e743b-default-rtdb.firebaseio.com",
+  projectId: "whatsappagent-e743b",
+  storageBucket: "whatsappagent-e743b.firebasestorage.app",
+  messagingSenderId: "285371203525",
+  appId: "1:285371203525:web:92622736e520eec369d5ac"
+};
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
         const db = getDatabase(app);
